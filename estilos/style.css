@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: gray;
+    background-color: rgb(82, 1, 107);
     position: relative;
 
     width: 100vw;
@@ -18,11 +18,76 @@ main{
     display: block;
     position: absolute;
     width: 300px;
-    height: 500px;
+    height: 550px;
     top: 50%;
     left: 50%;
+    border-radius: 20px;
     background-color: white;
+    overflow: hidden;
 
     transform: translate(-50%, -50%);
+}
+
+#img{
+    display: block;
+    height: 200px;
+    background: url(../imagens/architecture-1314416_640.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+#form{
+    height: 300px;
+}
+
+#form h1{
+    text-align: center;
+    font-size: 2em;
+    margin: 15px 0px;
+}
+
+#form p{
+    margin: 10px 5px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.caixa{
+    margin: 10px 0px;
+    padding: 2px 0px;
+}
+
+.espaco{
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid black
+}
+
+#envia{
+    padding: 15px 0px;
+}
+
+#botao{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+
+
+    border: 1px solid black;
+    background-color: rgb(82, 1, 107);
+    color: white;
+    cursor: pointer;
+}
+
+#botao:hover{
+    background-color: black;
+    transition: background-color 0.5s;
+}
+
+#esqueci{
+    text-align: center;
+    
 }
 
